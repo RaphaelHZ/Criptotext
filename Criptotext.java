@@ -5,7 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Criptotext {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         // testa se vai funcionanr, senao cai no catch
         try {
             // caminho do arquivo no GITHUB 
@@ -35,6 +35,10 @@ public class Criptotext {
         // no caso da URL estar incorreta, exibe a mensagem abaixo
         catch (MalformedURLException e) {
             System.out.println("URL incorreta: " + e.getMessage());
+        }
+        
+        catch (IOException e) {
+            System.out.println("Erro de I/O: " + e.getMessage());
         }
         
     }
