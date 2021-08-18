@@ -6,7 +6,7 @@ public class contagem {
     String caractere ="";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite alguns caracteres, podem ser letras ou números: ");
+        System.out.println("Digite alguns caracteres, podem ser letras, números ou caracteres especiais: ");
         texto = scanner.nextLine();
         scanner.close();
         int letras = contarLetras(texto, 0);
