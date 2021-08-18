@@ -37,3 +37,11 @@ public class contagem2 {
         }
     }
 }
+
+/*
+Entidade: Unifil EAD
+Nome: Raphael Henrique Zanluqui
+Data: 18-08-2021 00:45
+Objetivo: Contar caracteres utilizando recursão em java
+Ps. (´ na linha de entrada estraga a função e não sei porque ainda)
+*/
