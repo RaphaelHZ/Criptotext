@@ -43,5 +43,7 @@ Entidade: Unifil EAD
 Nome: Raphael Henrique Zanluqui
 Data: 18-08-2021 00:45
 Objetivo: Contar caracteres utilizando recursão em java
+Ou melhor, como fazer uma coisa criando o máximo de coisas absurdas, kkkk
+Observando, é quase melhor usar um FOR do que essas chamadas de função.
 Ps. (´ na linha de entrada estraga a função e não sei porque ainda)
 */
